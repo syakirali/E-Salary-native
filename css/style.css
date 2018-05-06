@@ -1,0 +1,272 @@
+/* Stylesheet / CSS */
+
+/* CSS Reset - Do not edit this line */ 
+ html {margin:0;padding:0;border:0;}body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}body {line-height:1.5;background:white;}table {border-collapse:separate;border-spacing:0;}caption, th, td {text-align:left;font-weight:normal;float:none !important;}table, th, td {vertical-align:middle;}blockquote:before, blockquote:after, q:before, q:after {content:'';}blockquote, q {quotes:"" "";}a img {border:none;}:focus {outline:0;}
+
+
+/* General Styles
+----------------------------------------------------------------------------------------------------*/
+html {
+	min-height: 100%;
+}
+body {
+	height: 100%;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #888;
+	font-size: 13px;
+	line-height: 20px;
+	min-width: 998px;
+	background:url(../images/BG.jpg) repeat;
+}
+header {
+    
+}
+/*Login Form
+---------------------------------------------------------------------------------------------------*/
+
+#kotak {
+	width: 350px;
+	margin:auto;
+	position: relative;
+        margin-top: 150px;
+}
+
+#kotakAtas {
+	background:url(../images/wrapper_top.png) no-repeat;
+	height:22px;
+}
+
+#kotakTengah {
+	background:url(../images/wrapper_middle.png) repeat-y;
+	height:240px;
+}
+
+#kotakBawah {
+	background:url(../images/wrapper_bottom.png) no-repeat;
+	height:22px;
+}
+
+#kotak h2 {
+        margin: auto;
+        text-align: center;
+	font-size:20px;
+	font-weight:bold;
+	font-family:Myriad Pro;
+	text-transform:uppercase;
+	position:relative;
+	text-shadow: #fff 2px 2px 2px;
+}
+
+#input_nip {
+	margin-left:25px;
+	position:absolute;
+	width:300px;
+	height:50px;
+	margin-top:40px;
+}
+
+#input_nip_kiri {
+	float:left;
+	background:url(../images/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#input_nip_tengah {
+	float: left;
+	background:url(../images/input_middle.png) repeat-x;
+	width:276px;
+	height:50px;
+}
+
+#input_nip_kanan {
+	float:left;
+	background:url(../images/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#url{
+	display:block;
+	width:276px;
+	height:45px;
+	background:transparent;
+	border:0;
+	color:#bdbdbd;
+	font-family:helvetica, sans-serif;
+	font-size:14px;
+	padding-left:20px;
+}
+
+/*mencegah warna input berubah ketika autocomplete*/
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
+#url_nip {
+	position:absolute;
+	display:block;
+	margin-top:-28px;
+	float:left;
+	padding-right:10px;
+}
+
+#input_password {
+	margin-left:25px;
+	position:absolute;
+	width:300px;
+	height:50px;
+	margin-top:100px;
+}
+
+#input_password_kiri {
+	float:left;
+	background:url(../images/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#input_password_tengah {
+	float:left;
+	background:url(../images/input_middle.png) repeat-x;
+	width:276px;
+	height:50px;
+}
+
+#input_password_kanan {
+	float:left;
+	background:url(../images/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#url_password {
+	display:block;
+	position:absolute;
+	margin-top:-32px;
+	float:left;
+	margin-left:4px;
+}
+
+#submit{
+	float:left;
+	position:relative;
+	padding:0;
+	margin-top:160px;
+	margin-left:25px;
+	width:300px;
+	height:40px;
+	border:0;
+}
+
+#submit1 {
+	position:absolute;
+	z-index: 10;
+	border:0;
+}
+
+#submit2 {
+	position:absolute;
+	margin-top:0px;
+	border:0;
+}
+
+#link_kiri{
+	float:left;
+	position:relative;
+	padding-top:5px;
+	margin-left:25px;
+}
+
+#link_kiri a{
+	color:#bbb;
+	font-size:11px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#link_kiri a:hover{
+	color:#292929;
+}
+
+#link_kanan{
+	float:right;
+	position:relative;
+	padding-top:5px;
+	margin-right:25px;
+}
+
+#link_kanan a{
+	color:#bbb;
+	font-size:11px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#link_kanan a:hover{
+	color:#292929;
+}
+
+#powered{
+	float:right;
+	position:relative;
+	padding-top:3px;
+	margin-right:5px;
+	font-size:11px;
+}
+
+#powered a{
+	color:#aaa;
+	font-size:11px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#powered a:hover{
+	color:#292929;
+}
+
+
+/* Beranda
+---------------------------------------------------------------------------------------------------*/
+
+#judul h1{
+    margin:0;
+    padding:0;
+    border:0;
+    font-weight:inherit;
+    font-style:inherit;
+    font-size:30px;
+    font-family:inherit;
+    vertical-align:baseline;
+}
+
+#link_login {
+    float: left;
+    position:relative;
+    padding-top:5px;
+    margin-left:25px;
+    color:#bbb;
+    font-size:11px;
+    text-decoration:none;
+    transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+}
+
+input#inputAbsen{
+    background-color: transparent;
+    border-color: transparent;
+}

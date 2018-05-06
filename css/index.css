@@ -1,0 +1,122 @@
+body {
+    background: url(../images/BG.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+a{
+    border: 1px solid;
+    padding: 5px;
+    float: right;
+    color:#00b75c;
+    font-size:15px;
+    text-decoration:none;
+    transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+}
+
+a:hover{
+    color:#136539;
+}
+
+
+#tabelKehadiran {
+    height: 100%;
+    width: auto;
+    background-color: rgba(21, 197, 35, 0.2);
+    padding-top: 25px;
+}
+#kanan {
+  height: 100%;
+  /*! background-color: #ffa; */
+  padding: 0;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#judul_kiri {
+  text-align: center;
+  font-size: 15px;
+  /*! background-color: #999; */
+  margin-bottom: 7px;
+}
+#kanan_atas {
+  width: 100%;
+  padding: 12px;
+  padding-bottom: 6px;
+}
+#judul_kanan {
+  width: 100%;
+  /*! background-color: #964; */
+  display: flex;
+}
+
+table {
+    align-self: center;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+td {
+  width: auto;
+}
+
+th {
+  text-align: left;
+  padding-right: 12px;
+}
+#tabelKehadiran_nama {
+    text-align: left;
+}
+
+#tabelKehadiran_header {
+    font-size: 18px;
+}
+
+#tabelKehadiran_lain {
+    text-align: left;
+}
+tr:nth-child(2n) {
+    background-color: #d3ddd1;
+}
+#text-center {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+}
+
+#jam {
+  float: right;
+  margin-left: auto;
+}
+#kanan_tengah {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 100%;
+}
+#submit {
+  margin-left: auto;
+}
+#submitAbsen {
+  margin-left: auto;
+}
+
+#kanan_bawah {
+    padding: 12px;
+    display: flex;
+    width: 100%;
+}
+
+#login2 {
+  margin-left: auto;
+}

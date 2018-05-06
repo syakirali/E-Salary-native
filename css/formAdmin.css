@@ -1,0 +1,93 @@
+body {
+    background: url(../images/BG.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:#00b75c;
+}
+
+a:hover{
+    color:#136539;
+}
+
+#nav {
+    display: flex;
+    width: 100%;
+}
+#input {
+    margin-top: 10px;
+    width: 100%;
+}
+#admin i {
+    font-weight: bold;
+    margin-left: 10px;
+}
+#nav_menu {
+    margin-left: auto;
+    width: -moz-fit-content;
+    margin-right: auto;
+    display: flex;
+    margin-top: 10px;
+}
+#nav_menu a {
+    display: flex;
+    margin: 2px;
+    border: 1px solid;
+    padding: 5px;
+    font-size:15px;
+    transition: color 0.5s linear;
+    -moz-transition: color 0.5s linear;
+    -webkit-transition: color 0.5s linear;
+    -o-transition: color 0.5s linear;
+}
+#judulForm {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+form {
+    margin: auto;
+    width: -moz-min-content;
+}
+#pegawai {
+    width: 97%;
+}
+input {
+    width: 250px;
+    margin: 5px;
+}
+#pegawai {
+    margin: 5px;
+}
+#submit {
+    width: 97%;
+}
+
+#bawah {
+    display: flex;
+}
+#kanan {
+    margin-left: 100px;
+}
+#listITAdmin {
+    padding-top: 12px;
+    width: 250px;
+}
+tr:nth-last-child(2n) {
+    background-color: #d3ddd1;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr {
+    border-bottom: 1px solid #7bc043;
+}
+th {
+    text-align: left;
+}
+#tanggal {
+    margin-top: 5px;
+}
